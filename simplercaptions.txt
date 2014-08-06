@@ -1,0 +1,22 @@
+Simpler Captions
+
+Use: 
+http://ie.microsoft.com/testdrive/Graphics/CaptionMaker/Default.html
+
+Video files will need to be uploaded to the I: drive and can then be accessed from:
+http://releases2.brightwave.co.uk/[foldername]/[filename.mp4]
+
+You can either type up the transcripts first and then copy paste them in, or just type as you go.
+
+As a rule of thumb ~6 words per caption is a good length, any longer and it will run on to two lines in the course.
+
+Once you're done select the caption format WebVTT and copy/paste the text it gives you into the relevant file.
+
+To get it to work properly you need to change WEBVTT on line 1 to WEBVTT FILE and alter the timestamps, do a find and replace 00: with 00:00: and 01: with 00:01 and so on.
+
+Timecode should be in the format:
+xx:xx:xx.xxx --> xx:xx:xx.xxx
+
+Open a new tab for each file in Chrome, or restart the browser in IE, otherwise it seems to get a bit tangled up and doesn't work very well.
+
+If it sulks, save what you've done out so far to the vtt file and then reload is as a caption file to the site.
